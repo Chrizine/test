@@ -5,5 +5,6 @@ class Test2 {
         if(bar()){
           x.baz();
         }
+        x.baz2();
     }
 }
