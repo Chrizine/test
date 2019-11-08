@@ -6,5 +6,7 @@ class Test {
             b = doSth(b);
         }
         x.useProcessedArg(processFurther(b));
+        x = null;
+        x.bug();
     }
 }
